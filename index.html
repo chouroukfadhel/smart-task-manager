@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header>
+            <h1>Smart Task Manager</h1>
+            <p>Organize your tasks and stay productive.</p>
+        </header>
+
+        <section class="task-form">
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a new task..."
+            >
+
+            <select id="priorityInput">
+                <option value="low">Low Priority</option>
+                <option value="medium" selected>Medium Priority</option>
+                <option value="high">High Priority</option>
+            </select>
+
+            <button id="addTaskBtn">Add Task</button>
+        </section>
+
+        <section class="controls">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search tasks..."
+            >
+
+            <select id="filterInput">
+                <option value="all">All Tasks</option>
+                <option value="active">Active</option>
+                <option value="completed">Completed</option>
+            </select>
+
+        </section>
+
+        <section>
+            <ul id="taskList"></ul>
+        </section>
+
+        <footer>
+            <span id="taskCount">0 tasks</span>
+            <button id="clearCompleted">Clear Completed</button>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
