@@ -56,4 +56,4 @@ Skills: HTML, CSS, JavaScript, responsive web design, and GitHub.
 
 ---
 
-Developed by Chourouk Fadhel as a front-end development portfolio project.
+Developed by Chourouk Fadhel as a front-end development portfolio project
