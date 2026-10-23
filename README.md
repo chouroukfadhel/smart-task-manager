@@ -1,59 +1,88 @@
-Smart Task Manager 📋
+Smart Task Manager
 
-A responsive task management web application built with HTML, CSS, and JavaScript. This project helps users organize their daily tasks, prioritize their work, and track their progress.
+A lightweight, responsive task management web app built with HTML, CSS, and vanilla JavaScript. Create tasks, set priorities, track completion, and keep your task list saved in your browser.
 
-✨ Features
+Live Demo: https://chouroukfadhel.github.io/smart-task-manager/
 
-- Add Tasks: Create new tasks quickly and easily.
-- Priority Levels: Assign low, medium, or high priority to each task.
-- Task Management: Mark tasks as completed or delete them.
-- Search Tasks: Find tasks by their titles.
-- Filter Tasks: Display all, active, or completed tasks.
-- Local Storage: Automatically save tasks in the browser.
-- Responsive Design: Works on desktop computers and mobile devices.
-- Clear Completed Tasks: Remove completed tasks with one click.
+Source Code: https://github.com/chouroukfadhel/smart-task-manager
 
-🛠️ Technologies Used
+Features
+
+- Create tasks: Add tasks and assign low, medium, or high priority.
+- Track progress: Mark tasks as completed or undo completion.
+- Search: Find tasks by title.
+- Filter: Display all, active, or completed tasks.
+- Clear completed tasks: Remove completed tasks in one action.
+- Local storage: Save tasks in your browser between visits.
+- Responsive design: Use the application on desktop and mobile devices.
+- Zero installation: No dependencies or build tools required.
+
+Technologies
 
 - HTML5
 - CSS3
-- JavaScript
-- Browser Local Storage
+- JavaScript (ES6+)
+- Browser Local Storage API
 - Git and GitHub
+- GitHub Pages
 
-🚀 How to Run the Project
+Run Locally
 
-1. Download or clone this repository.
-2. Open the "index.html" file in your web browser.
-3. Add a task and start organizing your work!
+No installation is required.
 
-No additional installation is required.
+1. Clone this repository:
+   
+   "git clone https://github.com/chouroukfadhel/smart-task-manager.git"
 
-📚 What I Learned
+2. Open the project folder.
 
-Through this project, I practiced:
+3. Open "index.html" in your browser.
 
-- Building responsive web interfaces.
-- Manipulating the DOM with JavaScript.
-- Handling user input and events.
-- Saving and retrieving data using Local Storage.
-- Implementing search and filtering functionality.
-- Organizing a front-end project into separate files.
+Project Structure
 
-🔮 Future Improvements
+- "index.html" — application structure and controls
+- "style.css" — styling and responsive layout
+- "script.js" — task management logic and local storage
+- "README.md" — project documentation
 
-- Add task editing functionality.
-- Introduce deadlines and reminders.
-- Add task sorting options.
-- Improve accessibility.
-- Create automated tests.
+How to Test
 
-👩‍💻 About the Developer
+1. Add a task and select its priority.
+2. Search for the task by title.
+3. Filter tasks by status.
+4. Mark a task complete and undo it.
+5. Refresh the page to verify that tasks remain saved.
 
-I'm a junior front-end developer with a background in computer science. I'm passionate about creating useful, responsive, and user-friendly web applications.
+Note: Tasks are stored locally in the current browser. They are not synchronized between devices, and clearing browser site data may delete them.
 
-Skills: HTML, CSS, JavaScript, responsive web design, and GitHub.
+Skills Demonstrated
+
+This project demonstrates my practice with:
+
+- DOM manipulation and event handling
+- JavaScript arrays and objects
+- Search and filtering logic
+- Browser-based data persistence
+- Responsive layouts using CSS Grid and Flexbox
+- Static website deployment with GitHub Pages
+
+Future Improvements
+
+- Edit existing tasks
+- Add deadlines and task sorting
+- Introduce categories
+- Improve accessibility
+- Add automated tests
+
+About the Developer
+
+I'm Chourouk Fadhel, an aspiring front-end and web developer with a background in computer science.
+
+I'm interested in building practical, accessible, and user-friendly web applications while continuing to strengthen my front-end development skills.
+
+- GitHub: https://github.com/chouroukfadhel
+- Live Project: https://chouroukfadhel.github.io/smart-task-manager/
 
 ---
 
-Developed by Chourouk Fadhel as a front-end development portfolio project
+Feedback and suggestions for improvement are welcome. Thank you for visiting my project!
